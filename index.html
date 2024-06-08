@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Claim modal Lottie &amp; CSS animation</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="website">
+	<section class="website-content">
+		<div class="card">
+			<div class="card-content text-center">
+				<h3 class="m-t-0 m-b-2">
+					NEXTGEN TECH SUMMIT
+				</h3>
+				<div class="glowingasset token is-sm">
+					<img src="https://gloot.netlify.app/images/prototype/rewards.png" width="240" height="auto" alt="">
+					<i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+				</div>
+				<p class="m-t-0 m-b-2">
+					You have just won a prize. Claim it now!
+				</p>
+				<button class="button is-glowing w-full mt-4 modal_open">
+					<span>Claim prize</span>
+					<i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+				</button>
+			</div>
+		</div>
+	</section>
+	<section class="modal">
+		<div class="modal-content">
+			<div class="lottie-container">
+				<div id="anim1" class="lottie-glow"></div>
+			</div>
+			<div class="rewards">
+				
+					<div class="card">
+						<div class="card-content p-0">
+							<div class="spinningasset coin">
+								<div>
+									<div></div>
+									<i></i>
+									<i></i>
+									<i></i>
+									<i></i>
+									<i></i>
+									<i></i>
+									<i></i>
+									<i></i>
+									<i></i>
+									<i></i>
+									<i></i>
+									<em></em>
+									<em></em>
+									<div></div>
+								</div>
+							</div>
+
+							<!--
+							<div class="reward-image reward-coin">
+								<img src="https://images.ctfassets.net/r5o0jpcspr8j/2eMHINVAmffpvVQY4XubCK/eb2ed2d9a0648fbd64dc76aff8c03a3b/coin.png" alt="" width="160" height="160">
+							</div>
+-->
+							<div class="reward-text">
+								₦10,000<br>Naira
+							</div>
+						</div>
+					</div>
+
+					
+			
+
+				<div class="reward-comments">
+					<h2>Congratulations</h2>
+					<p>
+Kindly claim to continue					</p>
+					<div class="flex-container is-col is-justify-center">
+						<button id="claim-done" class="button m-y-md">
+							<a href="./prize/index.php" class="button m-y-md is-glowing">
+								<span>Claim</span>
+							  </a>
+				  
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="glow glow-1"></div>
+			<div class="glow glow-2"></div>
+		</div>
+	</section>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.3/lottie.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
